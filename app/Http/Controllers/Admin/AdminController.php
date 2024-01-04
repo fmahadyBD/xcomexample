@@ -11,18 +11,6 @@ use Validator;
 use Hash;
 
 
-// namespace App\Http\Controllers\Admin;
-
-// use App\Http\Controllers\Controller;
-// use App\Http\Middleware\Admin as AdminMiddleware;
-// use Illuminate\Http\Request;
-// use Auth;
-// use Validator;
-// use Hash;
-// use App\Models\Admin as AdminModel;
-
-
-
 class AdminController extends Controller
 {
     public function dashboard(){
@@ -32,7 +20,6 @@ class AdminController extends Controller
         if($request->isMethod('post')){
             $data=$request->all();
             // echo"<pre>";print_r($data);
-
 
             $rules=[
 
